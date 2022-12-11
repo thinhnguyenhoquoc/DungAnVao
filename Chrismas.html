@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Có Người Yêu Học IT Để Làm GÌ :></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0; padding: 0;
+        }
+        body {
+            background: url(bg2.jpg);
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+
+
+            color:firebrick;
+            text-align: center;
+
+            font-size: 18px;
+            padding-top: 100px;
+            padding-bottom: 50px;
+            font-family: 'Kanit', sans-serif;
+        }
+    h1 {
+        font-size: 48px;
+    }
+    p1 {
+        font-size: 30px;
+    }
+    </style>
+</head>
+<body>
+
+    <h1>Mấy nay cậu vất vả rồi! Ngủ ngon nhaaa</h1>
+    <p1>Wish you pass <strong>ALL SUBJECTS</p1>
+    
+<canvas id="field" height="446" width="1536"></canvas>
+<script src="snowstorm.js"></script>
+<script>
+// customize
+var canvas = document.getElementById('field');
+
+var ctx = canvas.getContext('2d');
+
+var imgTree = new Image();
+imgTree.src = 'bg.jpg';
+
+var imgCouple = new Image();
+imgCouple.src = 'couple.png'
+
+window.onload = function () {
+
+     
+     ctx.drawImage(imgCouple, 45, 40);
+     
+     ctx.fillStyle = '#ffffff';
+     ctx.fillText('Iuuuuuu bà nhiều <3', 125, 100);
+
+}
+ 
+
+</script>
+</body>
+</html>
